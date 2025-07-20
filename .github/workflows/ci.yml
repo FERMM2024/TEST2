@@ -20,9 +20,7 @@ jobs:
       - run: npm install
       - run: npm test
       - name: Build static site
-        run: |
-          mkdir dist
-          cp -r src/* dist/
+        run: npm run build
       - uses: actions/upload-pages-artifact@v1
         with:
           path: dist

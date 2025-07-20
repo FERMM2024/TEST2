@@ -23,7 +23,13 @@ npm test
 
 ## Continuous Integration / Deployment
 
-The workflow [`ci.yml`](.github/workflows/ci.yml) installs dependencies, runs tests, builds a `dist` folder and deploys it to GitHub Pages automatically.
+The workflow [`ci.yml`](.github/workflows/ci.yml) installs dependencies, runs tests, and builds the site using `npm run build`. The resulting `dist` folder is deployed to GitHub Pages automatically.
+
+You can also build locally with:
+
+```bash
+npm run build
+```
 
 ## AI Assistance
 
