@@ -1,16 +1,26 @@
 # Portfolio Example
 
 This project is a simple portfolio site that demonstrates continuous integration and deployment to **GitHub Pages**.
+<<<<<<< HEAD
 The included photo is a simple mock SVG used only for testing purposes.
+=======
+>>>>>>> main
 
 ## Development
 
 The site uses basic HTML and JavaScript. All data is stored in [`src/data.js`](src/data.js) and rendered from [`src/app.js`](src/app.js).
+<<<<<<< HEAD
 This version defines small rendering functions in `src/app.js` for personal info, skills, and projects so the DOM updates can be reused.
 
 Unit tests are implemented with Node's built-in test runner (`node:test`), a lightweight alternative compatible with Jest's assertions. They verify:
 
 - A photo file exists (using a simple mock SVG so no binary files are needed)
+=======
+
+Unit tests are implemented with Node's built‑in test runner (`node:test`). They verify:
+
+- A photo file exists (implemented as a simple SVG so no binary files are needed)
+>>>>>>> main
 - Phone number, first and last names are defined
 - The skills list contains at least five entries
 - The projects list contains at least three entries
@@ -23,6 +33,7 @@ npm test
 
 ## Continuous Integration / Deployment
 
+<<<<<<< HEAD
 The workflow [`ci.yml`](.github/workflows/ci.yml) installs dependencies, runs tests, and builds the site using `npm run build`. The resulting `dist` folder is deployed to GitHub Pages automatically.
 
 You can also build locally with:
@@ -30,6 +41,9 @@ You can also build locally with:
 ```bash
 npm run build
 ```
+=======
+The workflow [`ci.yml`](.github/workflows/ci.yml) installs dependencies, runs tests, builds a `dist` folder and deploys it to GitHub Pages automatically.
+>>>>>>> main
 
 ## AI Assistance
 
@@ -45,4 +59,7 @@ After pushing to the `main` branch, the site will be available via GitHub Pages 
 - Convert the site to React or another component-based framework for easier maintenance.
 - Use a data model (e.g., JSON) to load skills and projects dynamically from an external file.
 - Extend unit tests to cover DOM rendering or use a headless browser library.
+<<<<<<< HEAD
 - Break the UI into reusable components to simplify updates and testing.
+=======
+>>>>>>> main

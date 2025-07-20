@@ -1,8 +1,15 @@
 export const personalInfo = {
+<<<<<<< HEAD
   firstName: 'Alice',
   lastName: 'Smith',
   phone: '+1-555-1234',
   photo: 'mock-photo.svg'
+=======
+  firstName: 'John',
+  lastName: 'Doe',
+  phone: '+123456789',
+  photo: 'photo.svg'
+>>>>>>> main
 };
 
 export const skills = [
