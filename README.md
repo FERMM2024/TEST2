@@ -1,7 +1,6 @@
 # Portfolio Example
 
-This project is a simple portfolio site that demonstrates continuous integration and deployment to **GitHub Pages**.
-The included photo is a simple mock SVG used only for testing purposes.
+This project is a simple portfolio site that demonstrates continuous integration and deployment to **GitHub Pages**. The data in `src/data.js` currently represents a fictional developer named *Fernando Martínez*. The included photo is a simple mock SVG used only for testing purposes.
 
 ## Development
 
