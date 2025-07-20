@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "node --test",
     "build": "mkdir -p dist && cp -r src/* dist/"
-=======
-    "test": "node --test"
->>>>>>> main
   },
   "keywords": [],
   "author": "",
